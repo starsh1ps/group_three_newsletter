@@ -18,21 +18,26 @@ class Navbar extends Component{
 render () {
   return (
     <div className="Navbar">
- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
+ <nav className="navbar navbar-inverse">
+  <div className="container-fluid">
+    <div className="navbar-header">
   
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+    <ul className="nav navbar-nav">
+      <li className><a href="#">Home</a></li>
       <li><a href="#">News</a></li>
-
+      <li><a href="#">Sport</a></li>
+      <li><a href="#">Weather</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">Technology</a></li>
     </ul>
   </div>
 </nav>
   
+
+ 
     </div>
   )
 }
 }
-export default Navbar;
+export default Navbar; 
